@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Título + Descripción (SEO) -->
+    <title>Animación de eventos en Tampico | Original Show de Erika Vázquez</title>
+    <meta
+      name="description"
+      content="Animación profesional para cumpleaños, baby showers, despedidas y eventos en Tampico, Madero y Altamira. Cotiza por WhatsApp."
+    />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://TU-DOMINIO.com/" />
+
+    <!-- Favicon / Icono -->
+    <link rel="icon" href="/favicon.ico" />
+    <!-- (Opcional) PWA/Touch icon -->
+    <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png" /> -->
+
+    <!-- Theme Color (barra del navegador en móvil) -->
+    <meta name="theme-color" content="#8B3A9C" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Original Show de Erika Vázquez" />
+    <meta
+      property="og:description"
+      content="Hacemos tu evento inolvidable. Baby shower, despedidas y cumpleaños desde $2,000 MXN."
+    />
+    <meta property="og:image" content="/fotos/cumple-kids.jpg" />
+    <meta property="og:url" content="https://TU-DOMINIO.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Preload de imagen del hero para mejor LCP (opcional) -->
+    <link rel="preload" as="image" href="/fotos/cumple-kids.jpg" />
+
+    <!-- Verificación de Google Search Console (cuando te la den, descomenta y pega el token) -->
+    <!-- <meta name="google-site-verification" content="TU_TOKEN_VERIFICACION" /> -->
+
+    <!-- JSON-LD: Negocio local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Original Show de Erika Vázquez",
+      "image": "https://TU-DOMINIO.com/fotos/cumple-kids.jpg",
+      "telephone": "+52 833 140 7959",
+      "areaServed": [
+        {"@type":"City","name":"Tampico"},
+        {"@type":"City","name":"Cd. Madero"},
+        {"@type":"City","name":"Altamira"}
+      ],
+      "sameAs": [
+        "https://www.facebook.com/animacionparatuseventossociales",
+        "https://www.instagram.com/animacion_erikavazquez?igsh=YXdvZnhnNjkzdWEy"
+      ],
+      "url": "https://TU-DOMINIO.com/",
+      "priceRange": "$$",
+      "description": "Animación para baby shower, despedidas y cumpleaños en Tampico, Madero y Altamira."
+    }
+    </script>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX'); /* Reemplaza por tu ID GA4 */
+    </script>
+
+    <!-- (Opcional) Meta Pixel: descomenta si vas a correr ads FB/IG
+    <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init','YOUR_PIXEL_ID'); fbq('track','PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+           src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    -->
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Entrada Vite/React -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
